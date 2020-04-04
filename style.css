@@ -1,5 +1,5 @@
 /* Global */
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +21,7 @@ html {
 /* SECTION #1 header|title section */
 main {
     max-width: 100%;
-    background: linear-gradient(135deg, rgba(24, 53, 131, 0.651) 0%, rgba(56, 93, 149, 0.548) 100%), url(img/main_back.jpg) center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(0, 195, 255, 0.363) 0%, rgba(98, 0, 255, 0.377) 100%), url(img/main_back.jpg) center/cover no-repeat fixed;
 }
 #container_title {
     text-align: center;
@@ -43,3 +43,75 @@ main {
 
 
 /* SECTION #2 form section */
+#container_form {
+    border-radius: 0.3rem;
+}
+form {
+    padding: 2rem 3rem;
+    color: var(--light);
+}
+#inputs label, #inputs h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.input-item {
+    text-transform: capitalize;
+}
+.input-item input, .select select, .radio input, .checkbox input {
+    margin-top: 0.5rem;
+}
+.input-item, .select, .radio, .checkbox, .textarea, .button {
+    margin-bottom: 2rem;
+}
+#name, #email, #number, #dropdown, #dropdown_second, #textarea, #submit {
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: .5rem .7rem;
+    border: none;
+    width: 100%;
+}
+#dropdown option, #dropdown_second {
+    color: var(--gray);
+}
+#number-label span, .checkbox span {
+    font-size: 0.9rem;
+}
+.select select {
+    color: var(--gray);
+}
+#textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+.checkbox input, .radio input {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+button {
+    background-color: var(--Submit_green);
+    color: var(--light);
+    padding: .8rem 0 !important;
+    transition: all 0.7s ease;
+}
+button:hover {
+    cursor: pointer;
+    background-color: rgb(58, 145, 73);
+}
+
+/* @Media */
+@media screen and (min-width: 576px) {
+    #container_form {
+        max-width: 80%;
+    }
+}
+@media screen and (min-width: 992px) {
+    #container_form {
+        max-width: 50%;
+    }
+}
+
