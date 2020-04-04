@@ -2,7 +2,7 @@
 Survey Form with HTML and CSS (no frameworks) for FreeCodeCamp certification
 
 **Objective:**
-Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
+## Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
 ### Requirements and Recommendations
 
