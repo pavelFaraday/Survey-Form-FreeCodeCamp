@@ -1,6 +1,9 @@
 # Survey-Form-FreeCodeCamp
 Survey Form with HTML and CSS (no frameworks) for FreeCodeCamp certification
 
+**Objective:**
+Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
+
 ### Requirements and Recommendations
 
 **User Story #1:** I can see a title with id="title" in H1 sized text.
