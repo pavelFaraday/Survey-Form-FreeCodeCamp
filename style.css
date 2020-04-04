@@ -1,6 +1,5 @@
 /* Global */
-/* Google fonts */
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -8,12 +7,39 @@
     box-sizing: border-box;
 }
 html {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --light: rgb(243,243,243);
+    --gray: rgb(133,133,133);
+    --Submit_green: rgb(84,176,101);
 }
 
 
+/* self styles */
+/* SECTION #1 header|title section */
+main {
+    max-width: 100%;
+    background: linear-gradient(135deg, rgba(24, 53, 131, 0.651) 0%, rgba(56, 93, 149, 0.548) 100%), url(img/main_back.jpg) center/cover no-repeat;
+}
+#container_title {
+    text-align: center;
+    padding: 2.2rem 0.5rem;
+    color: var(--light);
+    font-weight: 100;
+}
+#description {
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 100;
+    padding-top: 0.5rem;
+}
+#container_form {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(14, 14, 48, 0.692);
+}
 
 
-/* textarea {
-    resize: vertical;
-} */
+/* SECTION #2 form section */
